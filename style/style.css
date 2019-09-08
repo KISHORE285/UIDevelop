@@ -1,0 +1,986 @@
+ html{
+     overflow-y: visible;
+ }
+body{
+    font-family:"Palatino Linotype",cursive;
+    margin: 0;
+    overflow-x: hidden;
+ }
+#navfixed, #navbar1{
+    position: fixed!important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999!important;
+}
+ .dropdown:hover .dropdown-menu{
+     display: block;
+ }
+
+.Image-controls{
+    background: url("../image/b15f027eddff3f7c88be59a5e724a3a4.jpg") no-repeat center fixed;
+    background-size: cover;
+    height: 600px!important;
+    width: 100%;
+}
+.Image-control2{
+    background: url("../image/action-blur-close-up-735911.jpg") no-repeat center fixed;
+    background-size: cover;
+    height: 800px!important;
+    width: 100%;
+}
+.nav-link{
+    color: black!important;
+    font-size: 16px;
+    font-weight: inherit;
+}
+.read-btn{
+    border-radius: 20px;
+}
+.dropdown-menu{
+    border-radius: 20px;
+}
+.dropdown-menu a:hover{
+    border-radius: 20px;
+}
+
+ .btn:hover{
+     color: white;
+     box-shadow: 0 0 10px black;
+ }
+ .container-fluid nav{
+     position: sticky;
+     top: 0;
+ }
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+    text-align: center;
+}
+ .display-4{
+     font-size: 40px;
+ }
+ section{
+     overflow: hidden;
+ }
+ #bottom-image{
+     width: 100%;
+     height: auto;
+ }
+ .container-fluid{
+     text-align: center;
+
+ }
+.c_image{
+    border-radius: 20px;
+    box-shadow: 0 0 5px blue;
+    transition: all 0.5s;
+}
+.c_image:hover{
+    transform: perspective(400px) rotateY(10deg);
+    background-color: teal;
+    cursor: pointer;
+}
+ .d_image {
+    border-radius: 20px;
+    box-shadow: 0 0 5px blue;
+    transition: all 0.5s;
+    height: 250px;
+    width: 350px;
+}
+.d_image:hover{
+    transform: perspective(400px) rotateY(10deg);
+    background-color: teal;
+    cursor: pointer;
+}
+.e_image{
+    transition: all 0.8s;
+}
+
+.e_image:hover{
+    transform: translate3d(0px,-30px,0px);
+    background-color: teal;
+    cursor: pointer;
+}
+  #Arrow{
+      font-size: 20px;
+      font-weight: bold;
+   }
+  #Arrow:hover{
+
+  }
+  .c_change{
+      background: url("../image/adults-analysis-brainstorming-1661004.jpg") no-repeat center;
+      background-size: cover!important;
+      width: auto;
+      height: 600px!important;
+   }
+.d_change{
+    background: url("../image/adults-analysis-brainstorming-1661004.jpg") no-repeat center;
+    background-size: cover!important;
+    width: auto;
+    height: 600px!important;
+ }
+ .e_change{
+     background: url("../image/adults-analysis-brainstorming-1661004.jpg") no-repeat center;
+     background-size: cover!important;
+
+ }
+.playicon a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+
+}
+    .col-md-10 {
+        position: relative;
+        margin: auto;
+        text-align: center;
+        top: 180px;
+    }
+
+    h2{
+        color: darkblue!important;
+        font-weight: bold!important;
+    }
+    #play{
+        background-color: orange;
+        border-radius: 60%;
+        overflow: hidden;
+    }
+    footer{
+         background-color: teal;
+         height: 80px;
+         text-align: center;
+         padding:30px;
+          margin-top: 20px!important;
+    }
+    footer h3{
+        font-size: 20px;
+    }
+ .display-7{
+     padding-top: 50px;
+ }
+ #BackIMage{
+     background: url("../image/sky-blue-1.jpg") no-repeat center fixed;
+     background-size: cover;
+     height:auto!important;
+  }
+ .f_image{
+     margin: auto;
+     box-shadow: 0 0 10px wheat;
+     border-radius: 20px;
+     position: relative;
+     top: 50px;
+ }
+.psize{
+    font-size: 20px;
+}
+.cardb{
+    box-shadow: 0 0 10px darkblue;
+    border-radius: 20px;
+}
+.card_t{
+    border-radius: 50%!important;
+    box-shadow: 0 0 10px #0b4646;
+    width: 150px;
+    height: 150px;
+}
+.bg-teal{
+    background: rgb(0,128,128);
+}
+.btn-img{
+    border-radius: 20px;
+}
+.nav-t{
+    display: inline-block!important;
+}
+.nav-tabs li {
+     border-radius: 20px;
+     color: white;
+      margin: 50px auto;
+}
+.nav-tabs li a:hover{
+    background-color: orange;
+    outline: none;
+    color: white!important;
+}
+.bar-g{
+    border: 5px solid darkgrey;
+    border-radius: 20px;
+    width: 100%;
+ }
+.bar-f{
+    border: 5px solid lightblue;
+    width: 73%;
+    border-radius: 20px;
+}
+.bar-h{
+    border: 5px solid darkgrey;
+    border-radius: 20px;
+    width: 100%;
+}
+.bar-i{
+    border: 5px solid darkcyan;
+    width: 89%;
+    border-radius: 20px;
+}
+.bar-j{
+    border: 5px solid darkgrey;
+    border-radius: 20px;
+    width: 100%;
+}
+.bar-k{
+    border: 5px solid orangered;
+    width: 78%;
+    border-radius: 20px;
+}
+.bar-l{
+    border: 5px solid darkgrey;
+    border-radius: 20px;
+    width: 100%;
+}
+.bar-m{
+    border: 5px solid lightblue;
+    width: 53%;
+    border-radius: 20px;
+}
+ .bar-o{
+     border: 5px solid darkgrey;
+     border-radius: 20px;
+     width: 100%;
+ }
+ .bar-p{
+     border: 5px solid lightblue;
+     width: 53%;
+     border-radius: 20px;
+ }
+.e-card{
+    border-radius: 20px;
+}
+.teal-h:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+.tab-c{
+    border-collapse: collapse;
+}
+
+.teal-bt{
+ padding: 15px!important;
+    border-radius: 20px;
+    opacity: 0.8 ;
+}
+.teal-bt2{
+    padding: 15px!important;
+    border-radius: 20px;
+    opacity: 0.3 ;
+}
+#backForth{
+    background: white url("../image/Beach1.jpg") no-repeat center fixed;
+    background-size: cover;
+    height: auto!important;
+}
+#backForth1{
+    background: white url("../image/beach.jpg") no-repeat center;
+    background-size: cover;
+    height: auto!important;
+}
+.text-c{
+    box-shadow: 0 0 20px lightsalmon;
+}
+@media (max-width: 576px) {
+    .author-box {
+        justify-content: center;
+    }
+}
+.c-card{
+    transition: all 0.8s;
+}
+.c-card:hover{
+    transform: translate3d(0px,-30px,0px);
+    background-color: lightblue;
+}
+#para1,#para2,#para3{
+    display: none;
+}
+::placeholder{
+    font-size: 20px;
+}
+.caption-center{
+     top: 50%;
+     transform: translateY(-50%);
+}
+
+
+@media (max-width: 576px) {
+
+    .contain-n img{
+        height: 500px;
+     }
+    .contain-n{
+        height: 550px;
+    }
+    .contain-n i {
+         top: 100%;
+         transform: translateY(330%);
+    }
+    .icon-a{
+        margin-left: 30px;
+    }
+    .icon-b{
+        margin-right: 30px;
+    }
+}
+ @media (max-width: 764px){
+     .contain-m img{
+         height: 550px;
+     }
+     .icon-o{
+         transform: translate(0,220px);
+         margin-left: 40px;
+     }
+     .icon-p{
+         transform: translate(0,220px);
+         margin-right: 40px;
+     }
+ }
+ @media (min-width: 426px) and (max-width: 764px){
+     .caption-center1{
+         top: 35%;
+         transform: translateY(-50%);
+     }
+ }
+ @media (min-width: 765px) and (max-width: 1366px){
+     .caption-center1{
+         top: 45%;
+         transform: translateY(-50%);
+     }
+ }
+
+
+#navbar1{
+
+    transition: 0.5s;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+ }
+#navbar1:hover{
+    transform: translate3d(0px,10px,0px);
+}
+.Image-Control3{
+    background: url("../image/camera-contemporary-device-325153.jpg") no-repeat fixed;
+    background-size: cover;
+    height: 650px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 150px;
+
+}
+
+ @media (min-width: 424px) and (max-width: 730px) {
+     .image-control-3{
+         margin-top:-170px;
+         margin-left: auto;
+         margin-right: auto;
+         width:80%;
+         border-radius: 50px;
+     }
+ }
+
+@media (min-width: 734px) and (max-width: 1366px){
+    .image-control-3{
+        margin-top: -170px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50px;
+        width: 60%;
+        position: center;
+
+     }
+}
+@media (min-width: 1020px) and (max-width: 1366px) {
+ #navbar1{
+     width: 78%;
+     margin-left: 100px;
+     margin-right: 80px;
+     margin-bottom: 0;
+   }
+    .content-item{
+        display: inline-block;
+    }
+
+}
+ @media (min-width: 424px) and (max-width: 1200px) {
+     .dropdown-menu{
+         width:auto;
+         margin: 0 50%;
+         transform: translate(-80px,0);
+     }
+     .dropdown-item{
+         text-align: center;
+     }
+
+ }
+ .d-change{
+     transition: all 0.2s;
+ }
+ .d-change:hover{
+     background-color: teal;
+     transform: translate(0,-20px);
+ }
+
+ @media (min-width: 424px) and (max-width: 730px) {
+     .sec-manage {
+         width: auto !important;
+
+     }
+
+     .sec-manage img {
+         width: auto !important;
+     }
+
+ }
+ @media (min-width: 424px) and (max-width: 730px)
+ {
+       .manageImg img
+       {
+            display: flex;
+            justify-content: end;
+     }
+ }
+
+ .control-image{
+     background: url("../image/beach.jpg") no-repeat center fixed;
+     background-size: cover;
+ }
+
+ @media (min-width: 424px) and (max-width: 982px)
+ {
+     .back-change1{
+         text-align: center;
+         transform: translate(0,20px);
+     }
+
+     .back1 {
+         height: 310px;
+         width: 280px;
+         transform: translate(-5px, -180px);
+     }
+     .back2{
+         width: 550px;
+     }
+     .back-change2{
+              transform: translate(0,0px);
+              text-align: center;
+              margin-top: 20px;
+              margin-bottom: 40px;
+     }
+     .conta-manage{
+             text-align: center;
+             transform: translate(0,-70px);
+ }
+ }
+ @media (min-width: 983px) and (max-width: 1366px){
+     .back-change1{
+         margin-top: 80px;
+     }
+     .back1 {
+         height: 400px;
+         transform: translate(-50px, -250px);
+     }
+     .back2{
+         margin-top: 50px;
+     }
+     .back-change2{
+      margin-top: 100px;
+     }
+     .conta-manage{
+         transform: translate(0,-90px);
+     }
+     .conta-manage2{
+         margin-top: 30px;
+     }
+ }
+.effect1 a span{
+    display: none;
+}
+ @media (min-width: 424px) and (max-width: 982px){
+     .card-reverse,.card-reverse1,.card-reverse2{
+         display: flex;
+         flex-direction: column-reverse;
+         text-align: center;
+     }
+     .para-align{
+         text-align: center;
+     }
+     .card-reverse-3{
+         margin-top: 30px;
+         display: flex;
+         flex-direction: column;
+         text-align: center;
+     }
+     .sheild-fix{
+         padding-bottom: 20px;
+     }
+     .d-align,.e-align,.f-align,.palign{
+         text-align: center;
+     }
+ }
+
+ @media (min-width: 983px) and (max-width: 1366px) {
+
+
+      .card-reverse-3{
+          display: flex;
+          flex-direction: row;
+      }
+     .card-reverse1 {
+         display: flex;
+         flex-direction: row;
+         margin-left: 75px;
+     }
+     .palign{
+          text-align: justify;
+         padding-left: 80px;
+     }
+     .d-align,.e-align,.f-align{
+         text-align: justify;
+     }
+     .img-forbid{
+         height: 400px;
+     }
+ }
+.btn-move{
+    float: right;
+}
+
+.box{
+    border: 2px solid red;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+
+}
+.box1{
+    width: 50%;
+    border: 2px solid red;
+}
+
+table,th{
+    border: 2px solid red;
+    width: 5px!important;
+}
+th{
+    padding: 0!important;
+    text-align: center;
+    font-size: 20px!important;
+}
+.slider-css{
+
+}
+ .content-show123 a:hover{
+     color: red;
+ }
+ @media (min-width: 426px) and (max-width: 632px){
+     .adjust-content{
+        text-align: center;
+     }
+     .adjust2{
+         display: flex;
+         flex-direction: column;
+     }
+ }
+ @media (min-width: 732px) and (max-width: 1366px) {
+    .adjust2 a{
+        padding-right: 40px;
+    }
+ }
+ @media (min-width: 426px) and (max-width: 731px) {
+     .adjust2 a{
+         padding-right: 30px;
+     }
+
+ }
+     @media (max-width: 500px) {
+     .unordered-arrange li img{
+         width: 100%!important;
+     }
+ }
+ @media (min-width: 501px) and (max-width:600px) {
+     .unordered-arrange li img{
+         width: 100%!important;
+     }
+ }
+     @media (min-width: 501px) and (max-width: 1366px){
+     .unordered-arrange li{
+         display: inline-block!important;
+     }
+ }
+
+.line-break{
+    border: 1px solid black;
+}
+  .active{
+     color: red!important;
+ }
+ @media (min-width: 426px) and (max-width: 626px) {
+    .input-1{
+        width: 1500px;
+    }
+ }
+ @media (min-width: 424px) and (max-width: 763px) {
+     #amount{
+         width: 150px;
+     }
+     #amount1{
+         width: 150px;
+     }
+
+
+ }
+     @media (min-width: 764px) and (max-width: 1366px) {
+     #amount {
+         width: 70px;
+     }
+     #amount1{
+         width: 70px;
+     }
+ }
+ @media (min-width: 989px) and (max-width: 1276px) {
+
+     #amount1{
+         width: 70px;
+     }
+     #amount{
+         width: 70px;
+     }
+ }
+ @media (min-width: 637px) and (max-width: 990px){
+     .table-move{
+         transform: translateX(210px);
+     }
+ }
+ @media (min-width: 1264px) and (max-width: 1366px){
+     .table-move{
+         transform: translateX(15px);
+     }
+ }
+ @media (max-width:636px) {
+     #amount1{
+         width: 95px;
+     }
+     #amount{
+         width: 95px;
+     }
+     .table-move{
+         transform: translateX(100px);
+     }
+ }
+ @media (max-width: 636px) {
+
+
+ }
+
+     @media (min-width:426px)and (max-width: 1366px) {
+    .adjust-data{
+        margin-top: 100px;
+    }
+}
+.image-background{
+    background:url("../image/background.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+.comment-tag{
+    position: relative;
+}
+.comment-tag1{
+    position: absolute;
+
+    left: 80px;
+
+}
+/*-------------------Animate---------------*/
+ .back2 {
+     animation: upDown 1500ms infinite alternate;
+ }
+ @keyframes upDown {
+     0%{
+         transform: translate(0,-10px);
+     }
+     100%{
+          transform: translate(0px,0px);
+     }
+ }
+ .updown {
+     animation: upDown 1500ms infinite alternate;
+ }
+ @keyframes upDown {
+     0%{
+         transform: translate(0,-10px);
+     }
+     100%{
+         transform: translate(0px,0px);
+     }
+ }
+ .upDown2 {
+     animation: upDown 1500ms infinite alternate;
+ }
+ @keyframes upDown2 {
+     0%{
+         transform: translate(0,-10px);
+     }
+     100%{
+         transform: translate(0px,0px);
+     }
+ }
+ .upDown3 {
+     animation: upDown3 1500ms infinite alternate;
+ }
+ @keyframes upDown3 {
+     0%{
+         transform: translate(0,-10px);
+     }
+     100%{
+         transform: translate(0px,0px);
+     }
+ }
+ .Image-control5{
+     background: url("../image/car-connection-dashboard-1305305.jpg")no-repeat center fixed;
+     background-size: cover;
+     height: 700px;
+ }
+  @media (min-width: 992px) and (max-width:1044px){
+
+  }
+ .card-showup{
+     transition: all 1s;
+ }
+.card-showup:hover{
+    background-color: white;
+    transform: translate(0px,-20px);
+}
+#circular-modal{
+    border: 20px solid darkgrey;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+}
+.circle-b{
+
+    border-radius: 100px;
+    width: 100%;
+    height: 200px;
+}
+.circleRound{
+    position: relative;
+    width: 230px;
+    height: 230px;
+    border-radius: 150px;
+}
+ .circleRound img{
+     width: 230px;
+     height: 230px;
+     border-radius: 150px;
+     backface-visibility: hidden;
+ }
+ .middle {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     opacity: 0;
+ }
+ .circleRound:hover .middle{
+     opacity: 1;
+ }
+ .circleRound:hover img{
+     opacity: 0.3;
+ }
+ .card-animate{
+
+     transition: all 2s;
+ }
+ .card-animate:hover{
+     transform: translate(0,-20px);
+ }
+ .Image-Control6{
+     background: url("../image/001.jpg") no-repeat center fixed;
+     background-size: cover;
+     height: auto;
+ }
+ @media (min-width: 720px) and  (max-width:1366px){
+   .img-padding{
+       padding-left: 50px;
+   }
+ }
+ .ImageControl7{
+     background: url("../image/Mountain.jpg") no-repeat center fixed;
+     background-size: cover;
+     height: 600px;
+     border-bottom-left-radius: 60px;
+     border-bottom-right-radius: 60px ;
+ }
+ .ImageControl8{
+     background: url("../image/background-backlit-blur-459271.jpg") no-repeat center fixed;
+     background-size: cover;
+     height: auto;
+ }
+.alot-element::after{
+    border-right: 2px solid black;
+    height: 200px;
+ }
+  .position-element{
+      position: relative;
+      width: 100%;
+  }
+
+.position-change1 p{
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+
+.on-middle{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+}
+.CircleRound2{
+    position: relative;
+}
+.middle2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+ .circleRound2:hover{
+     opacity: 1;
+ }
+ .circleRound1:hover img{
+     opacity: 0.5;
+ }
+.unordered-block li{
+    display: inline-block;
+}
+.ImageControl9{
+    background: url("../image/background-backlit-blur-459271.jpg") no-repeat center fixed;
+    background-size: cover;
+    height: 550px;
+}
+ @media (min-width: 424px) and (max-width: 636px){
+     .icon-d{
+         transform: translate(0,35px);
+     }
+     .icon-e{
+         transform: translate(0,35px);
+     }
+ }
+ @media (min-width: 424px) and (max-width: 1000px){
+     .img-control{
+
+     }
+     .image-content3{
+        transform: translate(0,-160px);
+     }
+ }
+ @media (max-width: 575px){
+     .move-left{
+         transform: translate(80px,0);
+     }
+ }
+ @media (min-width: 424px) and (max-width: 767px){
+     .arrange-block li{
+          padding-right: 40px!important;
+        }
+ }
+ .arrange-block li{
+     display: inline-block;
+ }
+ @media (min-width: 720px) and  (max-width:1366px){
+     .img-padding1{
+         padding-left: 90px;
+     }
+ }
+ @media (min-width: 426px) and  (max-width:719px){
+     .img-padding1{
+         margin-top: 30px;
+     }
+ }
+ .ImageControl10{
+     background: url("../image/milky-way-mountain-night-114251.jpg") no-repeat center;
+     background-size: cover;
+ }
+  .list-moveup li{
+      display: inline-block;
+  }
+  .button-dynamic:hover{
+    background-color: coral!important;
+      color: white;
+}
+ @media (min-width: 426px) and  (max-width:760px) {
+     .carouse-shift{
+         transform: translate(20px,0);
+     }
+ }
+
+.modal-lg{
+    width: 100%!important;
+}
+.circle-i:hover{
+    cursor: pointer;
+}
+.change_l{
+    position: relative;
+    top: 250px;
+}
+.image-video1 {
+    background:url("../image/adults-analysis-brainstorming-1661004.jpg") no-repeat center;
+    background-size: cover;
+    height: 280px;
+ }
+.image-video2{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.image-video3{
+    background:url("../image/0003.jpg") no-repeat center;
+    background-size: cover;
+    height: 280px;
+}
+.image-video5{
+    display: flex;
+    justify-content: center;
+    padding-top: 195px;
+}
+.image-video4{
+    background:url("../image/adults-analysis-brainstorming-1661004.jpg") no-repeat center;
+    background-size: cover;
+    height: 500px;
+
+}
+ @media (min-width: 426px) and  (max-width:760px) {
+ .align-concate{
+     text-align: center;
+ }
+ }
+ .carouse-image-content{
+     background: url("../image/0004.jpg") no-repeat center;
+     background-size: cover;
+ }
+ .hover-on-up:hover{
+     background-color: lightblue;
+     transform: translate3d(0,-20px,0);
+ }
+ .hover-on-up{
+     transition: all 0.8s;
+ }
+

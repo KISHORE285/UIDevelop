@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="../bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Jquery Basics</title>
+</head>
+<body>
+<nav class="navbar bg-danger navbar-expand-md text-muted">
+    <a href="#" style="color: wheat;margin: auto!important;font-size: 30px">Jquery Basics</a>
+</nav>
+<button type="button" class="btn btn-teal" id="butt">click here</button>
+ <h2 id="btt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aspernatur, deleniti dolore enim et explicabo, facere fuga fugiat iure laboriosam laudantium possimus quae, quod reprehenderit sunt ut vero voluptates. Ad beatae consectetur deleniti ea eos facilis hic magni natus odit quos? Accusamus aliquid aperiam cum maxime molestias pariatur quisquam ratione reprehenderit ullam veniam! Dolorem incidunt labore omnis unde voluptates. Commodi delectus dignissimos, eos in inventore ipsam quae ratione suscipit unde.</h2>
+<button type="button" class="btn btn-success" id="btn-1">Effect</button>
+
+<h3>Zoom In Image</h3>
+<div class="zoom-in">
+    <img src="../img/image2.jpg">
+</div>
+<h2 class="font-weight-bold my-5 text-center">My Projects</h2>
+
+<!--First row-->
+<div class="row">
+
+    <!--First column-->
+    <div class="col-md-12">
+
+        <div id="mdb-lightbox-ui"></div>
+
+        <!--Full width lightbox-->
+        <div class="mdb-lightbox d-flex justify-content-lg-between">
+
+            <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(63).jpg" data-size="1600x1067">
+                    <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(63).jpg" class="img-fluid z-depth-1">
+                </a>
+            </figure>
+
+            <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(66).jpg" data-size="1600x1067">
+                    <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(66).jpg" class="img-fluid z-depth-1">
+                </a>
+            </figure>
+
+            <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(65).jpg" data-size="1600x1067">
+                    <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(65).jpg" class="img-fluid z-depth-1">
+                </a>
+            </figure>
+
+            <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(67).jpg" data-size="1600x1067">
+                    <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" class="img-fluid z-depth-1">
+                </a>
+            </figure>
+
+            <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(68).jpg" data-size="1600x1067">
+                    <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(68).jpg" class="img-fluid z-depth-1">
+                </a>
+            </figure>
+
+            <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(64).jpg" data-size="1600x1067">
+                    <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(64).jpg" class="img-fluid z-depth-1">
+                </a>
+            </figure>
+
+            <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(69).jpg" data-size="1600x1067">
+                    <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(69).jpg" class="img-fluid z-depth-1">
+                </a>
+            </figure>
+
+            <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(59).jpg" data-size="1600x1067">
+                    <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(59).jpg" class="img-fluid z-depth-1">
+                </a>
+            </figure>
+
+            <figure class="col-md-4">
+                <a href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(70).jpg" data-size="1600x1067">
+                    <img src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(70).jpg" class="img-fluid z-depth-1">
+                </a>
+            </figure>
+
+        </div>
+        <!--/Full width lightbox-->
+
+    </div>
+    <!--/First column-->
+
+</div>
+<!--First row-->
+<section style="background-color: lightcoral">
+    <h3 class="text-center display-3 mt-4">Our Client</h3>
+    <div id="carouselExampleCaption" class="carousel slide mt-5" data-ride="carousel">
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-sm-6 col-lg-2 col-6">
+                                    <img src="../image/1.png" class="d-block w-75" alt="...">
+                                </div>
+                                <div class="col-sm-6 col-lg-2 col-6">
+                                    <img src="../image/2.png" class="d-block w-75" alt="...">
+                                </div>
+                                <div class="col-sm-6 col-lg-2 col-6">
+                                    <img src="../image/3.png" class="d-block w-75" alt="...">
+                                </div>
+                                <div class="col-sm-6 col-lg-2 col-6">
+                                    <img src="../image/4.png" class="d-block w-75" alt="...">
+                                </div>
+                                <div class="col-sm-6 col-lg-2 col-6">
+                                    <img src="../image/5.png" class="d-block w-75" alt="...">
+                                </div>
+                                <div class="col-sm-6 col-lg-2 col-6">
+                                    <img src="../image/3.png" class="d-block w-75" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-sm-6 col-lg-2 col-6">
+                                    <img src="../i" class="d-block w-75" alt="...">
+                                </div>
+                                <div class="col-sm-6 col-lg-2 col-6">
+                                    <img src="../image/2.png" class="d-block w-75" alt="...">
+                                </div>
+                                <div class="col-sm-6 col-lg-2 col-6">
+                                    <img src="../image/3.png" class="d-block w-75" alt="...">
+                                </div>
+                                <div class="col-sm-6 col-lg-2 col-6">
+                                    <img src="../image/4.png" class="d-block w-75" alt="...">
+                                </div>
+                                <div class="col-sm-6 col-lg-2 col-6">
+                                    <img src="../image/5.png" class="d-block w-75" alt="...">
+                                </div>
+                                <div class="col-sm-6 col-lg-2 col-6">
+                                    <img src="../image/3.png" class="d-block w-75" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleCaption" role="button" data-slide="prev">
+                <span><i class="fa fa-chevron-circle-left fa-3x" style="color: red;margin-right: 80px;" aria-hidden="true"></i></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaption" role="button" data-slide="next">
+                <span><i class="fa fa-chevron-circle-right fa-3x" style="color: red;" aria-hidden="true"></i></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
+<!--------------------------------Script------------------------------->
+<script src="../bootstrap/js/jquery-3.3.1.min.js"></script>
+<script src="../bootstrap/js/popper.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="../bootstrap/js/mdb.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
